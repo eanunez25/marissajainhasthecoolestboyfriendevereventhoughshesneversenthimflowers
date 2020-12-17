@@ -48,6 +48,7 @@ table {
 }
 
 /* ============================== background ============================== */
+
 @keyframes move {
   100% {
       transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -62,6 +63,7 @@ table {
   left: 0;
   background: #3E1E68;
   overflow: hidden;
+  z-index: -1;
 }
 
 .background span {
@@ -256,4 +258,32 @@ table {
   animation-delay: -29s;
   transform-origin: 10vw -17vh;
   box-shadow: 40vmin 0 5.3227090637908105vmin currentColor;
+}
+
+/* ============================== fonts ============================== */
+
+p, h1, h2 {
+  color: white;
+  /* font: "Courier New", Courier, monospace; */
+}
+
+
+/* ============================== fonts ============================== */
+
+.center {
+  text-align: center;
+}
+
+.greetings, .time {
+  margin-top: 200px !important;
+}
+
+.time {
+  font-size: 120px;
+  padding: 0px !important;
+  height: 120px;
+}
+
+.quote{
+  text-align: left;
 }
