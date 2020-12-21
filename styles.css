@@ -274,8 +274,12 @@ p, h1, h2 {
   text-align: center;
 }
 
-.greetings, .time {
-  margin-top: 200px !important;
+.time {
+  margin-top: 20vh !important;
+}
+
+.greetings {
+  margin-top: 25vh !important;
 }
 
 .time {
@@ -287,3 +291,18 @@ p, h1, h2 {
 .quote{
   text-align: left;
 }
+
+input {
+  border: none;
+  border-bottom: 2px solid #fff;
+  min-width: 70vw;
+  max-width: 70vw;
+  width: 75%;
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: white !important;
+  outline: 0;
+  margin-top: 30px !important;
+  margin-bottom: 20px;
+}
+
