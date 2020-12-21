@@ -292,6 +292,9 @@ p, h1, h2 {
   text-align: left;
 }
 
+
+/* ============================== search bar ============================== */
+
 input {
   border: none;
   border-bottom: 2px solid #fff;
@@ -306,3 +309,8 @@ input {
   margin-bottom: 20px;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 11; /* Firefox */
+}
