@@ -366,9 +366,17 @@ input {
 
 .fab:hover, .far:hover, .fas:hover {
   opacity: .9;
-  transform: scale(1.3)
+  transform: scale(1.3);
 }
 
+p.title {
+  font-size: 20px;
+  display: none;
+}
+
+/* .fa-3x:hover p.title {
+  display: block;
+} */
 
 /* ============================== quote ============================== */
 
