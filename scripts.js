@@ -12,6 +12,7 @@ function startTime() {
   var h = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
+  h = ((h + 11) % 12 + 1);
   // add a zero in front of numbers<10
   m = checkTime(m);
   s = checkTime(s);
