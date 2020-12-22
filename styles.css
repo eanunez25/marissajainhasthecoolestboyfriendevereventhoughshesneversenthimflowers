@@ -274,7 +274,7 @@ p, h1, h2 {
   text-align: center;
 }
 
-.greetings {
+#greeting {
   margin-top: 25vh !important;
 }
 
@@ -311,3 +311,37 @@ input {
   color: #fff;
   opacity: 11; /* Firefox */
 }
+
+
+/* ============================== bookmarks ============================== */
+
+.bookmarks {
+  margin-top: 50px;
+}
+
+.fab, .far, .fas {
+  color: white;
+}
+
+.fab:hover, .far:hover, .fas:hover {
+  opacity: .9;
+  transform: scale(1.3)
+}
+
+
+/* ============================== quote ============================== */
+
+.quotes {
+  margin-top: 100px;
+  color: white;
+}
+
+blockquote {
+  border-left: solid 0.2em white;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+/* div.author {
+  float: right;
+} */

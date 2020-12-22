@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/1a10135acf.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -41,7 +42,7 @@
     <div class="container">
       <div class="row center">
         <div class="col-md-6">
-          <h1 class="greetings">Let's Get Canes, Marissa Jain</h1>
+          <h1 id="greeting">Let's Get Canes, Marissa Jain</h1>
         </div>
         <div class="col-md-6">
           <h1 id="time"></h1>
@@ -55,6 +56,23 @@
       <form action="https://google.com/search" method="get" target="_self" autocomplete="off">
         <input type="text" name="q" placeholder="Search" autofocus="autofocus" onfocus="this.select()">
       </form>
+    </div>
+
+    <div class="container bookmarks">
+      <div class="row center">
+        <div class="col-md-2"><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-3x"></i></a></div>
+        <div class="col-md-2"><a href="https://www.netflix.com/browse" target="_blank"><i class="fab fa-neos fa-3x"></i></a></div>
+        <div class="col-md-2"><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></div>
+        <div class="col-md-2"><a href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit-alien fa-3x"></i></a></div>
+        <div class="col-md-2"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fas fa-envelope fa-3x"></i></a></div>
+        <div class="col-md-2"><a href="https://finance.yahoo.com/" target="_blank"><i class="fas fa-chart-line fa-3x"></i></a></div>
+      </div>
+    </div>
+
+    <div class="container quotes">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 quote"></div>
+      </div>
     </div>
 
     <script src="scripts.js"></script>
