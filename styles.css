@@ -345,3 +345,25 @@ blockquote {
 /* div.author {
   float: right;
 } */
+
+
+/* ============================== mobile ============================== */
+
+@media screen and (max-width: 360px) {
+
+  #greeting {
+    margin-top: 15vh !important;
+  }
+
+  #time {
+    margin-top: 5vh !important;
+  }
+
+  input {
+    display: none;
+  }
+
+  .bookmarks {
+    display: none;
+  }
+}
