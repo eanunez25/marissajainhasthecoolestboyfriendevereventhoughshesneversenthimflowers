@@ -224,3 +224,22 @@ function todaysQuote() {
   document.querySelector(".quote").innerHTML = mjQuotes[Math.floor(dayDifference)+0];
 }
 todaysQuote();
+
+
+// ============================== weather ==============================
+let cityID = 4676740;
+function weatherBalloon( cityID ) {
+  var key = "5aeae69de47c30696851724875b26f55";
+  fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID+ '&appid=' + key)  
+  .then(function(resp) { return resp.json() }) // Convert data to json
+  .then(function(data) {
+    console.log(data);
+  })
+  .catch(function() {
+    // catch any errors
+  });
+}
+
+window.onload = function() {
+  weatherBalloon( 4676740 );
+}

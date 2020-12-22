@@ -262,13 +262,13 @@ table {
 
 /* ============================== fonts ============================== */
 
-p, h1, h2 {
+p, h1, h2, h5 {
   color: white;
   /* font: "Courier New", Courier, monospace; */
 }
 
 
-/* ============================== fonts ============================== */
+/* ============================== greeting ============================== */
 
 .center {
   text-align: center;
@@ -283,6 +283,10 @@ p, h1, h2 {
   padding: 0px !important;
   height: 120px;
   margin-top: 20vh !important;
+}
+
+#date {
+  margin-bottom: 0px !important;
 }
 
 .quote{
