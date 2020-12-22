@@ -274,18 +274,15 @@ p, h1, h2 {
   text-align: center;
 }
 
-.time {
-  margin-top: 20vh !important;
-}
-
 .greetings {
   margin-top: 25vh !important;
 }
 
-.time {
+#time {
   font-size: 120px;
   padding: 0px !important;
   height: 120px;
+  margin-top: 20vh !important;
 }
 
 .quote{
