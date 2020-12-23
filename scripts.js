@@ -206,6 +206,11 @@ let mjQuotes = [
   </blockquote>
   Elvin, circa 2015`,
 
+  `<blockquote>
+    The best gifts are never bought
+  </blockquote>
+  Elvin, circa 2015`,
+
 ]
 
 // ===== formats =====
