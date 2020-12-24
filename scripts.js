@@ -211,6 +211,8 @@ let mjQuotes = [
   </blockquote>
   Elvin, circa 2015`,
 
+  `Canes > CFA`,
+
 ]
 
 // ===== formats =====
