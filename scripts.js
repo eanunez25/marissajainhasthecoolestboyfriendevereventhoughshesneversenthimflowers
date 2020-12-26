@@ -213,8 +213,9 @@ let mjQuotes = [
 
   `Canes > CFA`,
 
-  `Is your name Jingle Bells?`
+  `Is your name Jingle Bells?`,
 
+  `Is your name Jingle Bells?`,
 ]
 
 // ===== formats =====
