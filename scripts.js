@@ -218,6 +218,10 @@ let mjQuotes = [
   `Is your name Jingle Bells?`,
 
   ``,
+
+  `<blockquote>
+    Train for what really matters: the bedroom
+  </blockquote>Barbell Brigade`,
 ]
 
 // ===== formats =====
