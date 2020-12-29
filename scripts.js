@@ -222,6 +222,10 @@ let mjQuotes = [
   `<blockquote>
     Train for what really matters: the bedroom
   </blockquote>Barbell Brigade`,
+
+  `<blockquote>
+    If you see someone shoplifting food, no you didnt
+  </blockquote>`,
 ]
 
 // ===== formats =====
