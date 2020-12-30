@@ -226,6 +226,8 @@ let mjQuotes = [
   `<blockquote>
     If you see someone shoplifting food, no you didnt
   </blockquote>`,
+
+  `Nose goes`,
 ]
 
 // ===== formats =====
