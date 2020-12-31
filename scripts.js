@@ -228,6 +228,8 @@ let mjQuotes = [
   </blockquote>`,
 
   `Nose goes`,
+
+  `New year, who dis?`
 ]
 
 // ===== formats =====
