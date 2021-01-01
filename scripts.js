@@ -229,7 +229,9 @@ let mjQuotes = [
 
   `Nose goes`,
 
-  `New year, who dis?`
+  `New year, who dis?`,
+
+  `New year, who dis?`,
 ]
 
 // ===== formats =====
