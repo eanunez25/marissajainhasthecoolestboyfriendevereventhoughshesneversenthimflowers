@@ -234,6 +234,8 @@ let mjQuotes = [
   `New year, who dis?`,
 
   `Nose goes`,
+
+  `Country road, take me home`,
 ]
 
 // ===== formats =====
