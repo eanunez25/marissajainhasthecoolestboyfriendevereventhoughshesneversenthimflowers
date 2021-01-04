@@ -236,6 +236,8 @@ let mjQuotes = [
   `Nose goes`,
 
   `Country road, take me home`,
+
+  `Everything in moderation, including moderation.`,
 ]
 
 // ===== formats =====
