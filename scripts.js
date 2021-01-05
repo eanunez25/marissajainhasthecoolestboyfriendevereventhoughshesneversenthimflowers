@@ -238,6 +238,8 @@ let mjQuotes = [
   `Country road, take me home`,
 
   `Everything in moderation, including moderation.`,
+
+  ``,
 ]
 
 // ===== formats =====
