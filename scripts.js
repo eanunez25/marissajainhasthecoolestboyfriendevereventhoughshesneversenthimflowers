@@ -240,6 +240,8 @@ let mjQuotes = [
   `Everything in moderation, including moderation.`,
 
   ``,
+  ``,
+  `Boobs`,
 ]
 
 // ===== formats =====
