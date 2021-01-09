@@ -243,6 +243,7 @@ let mjQuotes = [
   ``,
   `Boobs`,
   `Boobs`,
+  `Boobs`,
 ]
 
 // ===== formats =====
