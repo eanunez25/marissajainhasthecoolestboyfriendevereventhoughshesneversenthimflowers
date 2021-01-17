@@ -251,6 +251,7 @@ let mjQuotes = [
   `Boobs`,
   `Nose goes`,
   `Go home`,
+  `Go home`,
 ]
 
 // ===== formats =====
