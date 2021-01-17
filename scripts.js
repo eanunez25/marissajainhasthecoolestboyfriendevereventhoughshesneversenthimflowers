@@ -250,6 +250,7 @@ let mjQuotes = [
   `Canes`,
   `Boobs`,
   `Nose goes`,
+  `Go home`,
 ]
 
 // ===== formats =====
