@@ -251,7 +251,9 @@ let mjQuotes = [
   `Boobs`,
   `Nose goes`,
   `Go home`,
-  `Go home`,
+  `Go home`,``,``,``,``,``,``,``,``,``,``,``,``,``,``,
+
+  `givemewhiskey`,
 ]
 
 // ===== formats =====
@@ -267,7 +269,8 @@ function todaysQuote() {
   let dayDifference = today.getDate() - launchDate.getDate();
   const day = 1000 * 60 * 60 * 24;
   dayDifference = ((today - launchDate) / day) + 31;
-
+  console.log(dayDifference);
+  console.log(mjQuotes.length);
   document.querySelector(".quote").innerHTML = mjQuotes[Math.floor(dayDifference)+0];
 }
 todaysQuote();
